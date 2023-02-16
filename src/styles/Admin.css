@@ -1,0 +1,17 @@
+.Admin {
+	/* background-color: azure; */
+}
+
+.Admin-UserMods {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.Admin h1,
+.Admin h3 {
+	color: white;
+}
+.Card {
+	margin: 2rem 1rem;
+}

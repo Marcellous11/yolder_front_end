@@ -1,0 +1,34 @@
+.Signup {
+	display: flex;
+	flex-direction: column;
+	border-radius: 2rem;
+	background-color: rgb(232, 235, 238);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: 7rem auto;
+	padding: 4rem 1rem;
+	width: 30%;
+}
+
+.Signup-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Signup-form label {
+	padding: .3rem 0;
+}
+.Signup-form label input {
+	border-style: none;
+}
+.Signup-form button {
+	border-style: none;
+	background-color: rgb(82, 130, 84);
+	margin-top: 1rem;
+	padding: .5rem 2rem;
+	border-radius: .4rem;
+	cursor: pointer;
+}
+.Signup-form input[name="passwordCheck"] {
+	border-style: solid;
+	border-color: red;
+}
